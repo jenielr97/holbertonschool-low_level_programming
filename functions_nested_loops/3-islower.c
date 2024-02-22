@@ -1,20 +1,16 @@
 #include "main.h"
 
 /**
- * print_alphabet - this is the function of the task
- * Return: Always 0.
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
+int _islower(int c);
+{
 
-void print_alphabet_x10(void)
-{
-char num, letter;
+if (c >= 'a' && c <= 'z')
+return (1);
+else
 
-for (num = 0; num <= 9; num++)
-{
-for (letter = 'a'; letter <= 'z'; letter++)
-{
-_putchar(letter);
-}
-_putchar('\n')
-}
+return (0);
 }
