@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+*main - Entry point
+*
+*Return: nothing, return void
+*/
+
+int main(void)
+{
+_insupper('_');
+_isupper('p');
+_isupper('u');
+_isupper('t');
+_isupper('c');
+_isupper('h');
+_isupper('a');
+_isupper('r');
+_isupper('\n');
+
+return (0);
+}
