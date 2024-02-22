@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_alphabet - this is the function of the task
